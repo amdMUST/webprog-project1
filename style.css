@@ -40,7 +40,7 @@ body{
 .dice-interface{
     float: right;
     width: 75%;
-    align-self: center;
+    margin: 10% 0;
 }
 
 
