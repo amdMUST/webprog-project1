@@ -2,10 +2,11 @@ body{
     margin: 0 3%;
     font-size: 22px;
     font-family: futura;
-    background-color: rgb(214, 223, 223);
+    background-color: rgb(11, 11, 11);
     text-align: center;
-    background-image: url("resources/background.jpg");
+    background-image: url("resources/background2.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .title-header{
