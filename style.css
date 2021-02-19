@@ -4,10 +4,15 @@ body{
     font-family: futura;
     background-color: rgb(214, 223, 223);
     text-align: center;
+    background-image: url("resources/background.jpg");
+    background-size: cover;
 }
 
 .title-header{
-    /* background-color: rgb(232, 188, 45); */
+    transition: all 1s;
+}
+.title-header:hover{
+    transform: scale(1.1);
 }
 
 
@@ -46,9 +51,15 @@ body{
 
 .credits-bottom{
     display: block;
-    margin: auto;
+    margin: 3% 5%;
     background-color: rgb(106, 232, 56);
 }
+
+.credits, a{
+    text-decoration: none;
+    color: black;
+}
+
 .validation{
     position: fixed;
     bottom: 0;
