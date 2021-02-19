@@ -9,6 +9,12 @@ body{
     background-repeat: no-repeat;
 }
 
+.audio {
+    position: fixed;
+    top: 0;
+    left: 0; 
+}
+
 .title-header{
     transition: all 1s;
     font-style: oblique;
