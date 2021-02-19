@@ -9,11 +9,11 @@ body{
     background-repeat: no-repeat;
 }
 
+/* header CSS */
 .audio {
     width: 200px;
     margin-left: -60px;    
 }
-
 .title-header{
     transition: all 1s;
     font-style: oblique;
@@ -23,6 +23,7 @@ body{
 }
 
 
+/* Sidebar and dice CSS */
 .main-content{
     display: flex;
 }
@@ -48,7 +49,6 @@ body{
     margin: 0;
 }
 
-
 .dice-interface{
     float: right;
     width: 75%;
@@ -56,20 +56,19 @@ body{
 }
 
 
+/* Credits and validation CSS */
 .credits-bottom{
     display: block;
     margin: 3% 5%;
     background-color: rgb(242, 242, 242);
     border-radius: 20px;
 }
-
 .names {
     display: flex;
     margin: auto;
     width: 800px;
     font-weight: bold;
 }
-
 .name {
     margin: 20px;    
 }
@@ -78,10 +77,10 @@ body{
     text-decoration: none;
     color: black;
 }
+
 a:hover{
     color: red;
 }
-
 .validation{
     position: fixed;
     bottom: 0;
@@ -89,6 +88,35 @@ a:hover{
 }
 
 
+/* summary page CSS */
+.summary-body{
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+    font-style: italic;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-image: url('resources/back.jpg'); 
+}
+.summary-img{
+    width: 75px;
+    height: 75px;
+}
+dl{
+    text-align: left;
+    margin-left: 25%;
+}
+h2{
+    text-decoration: underline;
+}
+#summary-bottom{
+    color: green; 
+    font-size: 18pt;
+}
+
+
+
+/* Dice CSS */
 @keyframes spin {
     0% { transform: translateZ(-100px) rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
     16% { transform: translateZ(-100px) rotateX(180deg) rotateY(180deg) rotateZ(0deg); }
