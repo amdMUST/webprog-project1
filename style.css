@@ -64,6 +64,17 @@ body{
     border-radius: 20px;
 }
 
+.names {
+    display: flex;
+    margin: auto;
+    width: 800px;
+    font-weight: bold;
+}
+
+.name {
+    margin: 20px;    
+}
+
 .credits, a{
     text-decoration: none;
     color: black;
