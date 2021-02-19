@@ -10,9 +10,8 @@ body{
 }
 
 .audio {
-    position: fixed;
-    top: 0;
-    left: 0; 
+    width: 200px;
+    margin-left: -60px;    
 }
 
 .title-header{
