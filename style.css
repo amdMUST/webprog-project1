@@ -11,6 +11,7 @@ body{
 
 .title-header{
     transition: all 1s;
+    font-style: oblique;
 }
 .title-header:hover{
     transform: scale(1.1);
@@ -46,19 +47,23 @@ body{
 .dice-interface{
     float: right;
     width: 75%;
-    margin: 10% 0;
+    margin: 8% 0;
 }
 
 
 .credits-bottom{
     display: block;
     margin: 3% 5%;
-    background-color: rgb(106, 232, 56);
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px;
 }
 
 .credits, a{
     text-decoration: none;
     color: black;
+}
+a:hover{
+    color: red;
 }
 
 .validation{
