@@ -14,6 +14,9 @@ body{
     width: 200px;
     margin-left: -60px;    
 }
+
+.audio > iframe {display: none }
+
 .title-header{
     transition: all 1s;
     font-style: oblique;
