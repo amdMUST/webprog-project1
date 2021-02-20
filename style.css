@@ -73,6 +73,18 @@ body{
     margin: 20px;    
 }
 
+#ahmed:before {content: 'Ahmed Mustafa'}
+#ahmed:hover:before {content: 'The Mastermind'}
+
+#kevin:before {content: 'Kevin Blanco'}
+#kevin:hover:before {content: 'The Powerhouse'}
+
+#mustafa:before {content: 'Mustafa Goktepe'}
+#mustafa:hover:before {content: 'The Joker'}
+
+#quan:before {content: 'Quan Huynh'}
+#quan:hover:before {content: 'The Clutcher'}
+
 .credits, a{
     text-decoration: none;
     color: black;
